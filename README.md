@@ -74,13 +74,13 @@ web java -Dserver.port=$PORT -jar target/gs-rest-service-0.1.0.jar
 language: java
 jdk: openjdk8
 
-env:
-  global:
-  - secure: "secure-api-key"
-
 deploy:
   provider: heroku
-  api_key: $HEROKU_API_KEY
+  api_key: paceholder
   app: devops-ci
 ```
-6. Check the app on your Heroku URL
+6. Generate secure API key for Heroku deployment
+```bash
+travis encrypt paste-your-api-key-here --add deploy.api_key --org
+```
+7. Check the app on your Heroku URL
