@@ -6,8 +6,9 @@
 2. Create new GitHub repository for the demo SpringBoot RESTFul application
 ```bash
 git clone https://github.com/szatmari/devops-ci.git
-git remote set-url origin YOUR_GIT_URL
-git push -u origin master
+git remote set-url myorigin YOUR_GIT_URL
+git pull myorigin master --allow-unrelated-histories
+git push -u myorigin master
 ```
 
 ## Gradle
