@@ -79,7 +79,7 @@ deploy:
   api_key: paceholder
   app: devops-ci
 ```
-6. Generate secure API key for Heroku deployment
+6. Generate secure API key for Heroku deployment for this repository
 ```bash
 travis encrypt paste-your-api-key-here --add deploy.api_key --org
 ```
