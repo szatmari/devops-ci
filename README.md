@@ -73,9 +73,6 @@ web java -Dserver.port=$PORT -jar target/gs-rest-service-0.1.0.jar
 language: java
 jdk: openjdk8
 
-language: java
-jdk: openjdk8
-
 env:
   global:
   - secure: "secure-api-key"
