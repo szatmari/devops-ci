@@ -1,0 +1,8 @@
+version: "3"
+services:
+  webapp:
+    build: ./
+    volumes:
+      - "./build/libs:/app"
+    ports:
+      - "8088:8088"
