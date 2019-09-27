@@ -5,8 +5,8 @@
 1. Start the devops-ci VM in the BME VIK Cloud (Smallville)
 2. Create new GitHub repository for the demo SpringBoot RESTFul application
 ```bash
-git clone https://github.com/szatmari/devops-build.git
-git remote set-url origin https://github.com/szatmari/devops-ci-test.git
+git clone https://github.com/szatmari/devops-ci.git
+git remote set-url origin YOUR_GIT_URL
 git push -u origin master
 ```
 
