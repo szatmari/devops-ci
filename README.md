@@ -53,7 +53,7 @@ curl http://localhost:8088/greeting?name=Zoltan
 4. Set build trigger: Poll SCM "* * * * *"
 5. Add a new build task to do deployment: "Execute shell"
 ```bash
-docker-compose up -d --force-recreate"
+docker-compose up -d --force-recreate
 ```
 
 ## Travis + Heroku
